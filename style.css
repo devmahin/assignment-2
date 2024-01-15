@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+:root{
+    --primary-color: #FF5400;
+}
+
+/* hrader start*/
+header{
+    max-width: 1440px;
+    width: 81%;
+    background-color: red;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav-logo */
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+/* nav-link */
+.nav-link>ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-link>ul>li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
