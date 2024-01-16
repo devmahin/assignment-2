@@ -149,6 +149,7 @@ a {
     border: none;
     border-radius: 8px;
 }
+
 /* Explore My Travel Start end*/
 
 
@@ -346,20 +347,30 @@ main {
     height: 500px;
     margin-top: 20px;
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+.discount-card-container{
+    width: 80%;
+    background-color: red;
 }
 
 .discount-card-1 {
     background: url("Images/Group\ 39.png");
     /* background-size: 100; */
+    justify-content: flex-end;
+
 }
 
 .discount-card-2 {
     background: url("Images/Group\ 40.png");
+    justify-content: flex-start;
 
 }
 
 .discount-card-3 {
     background: url("Images/Group\ 39.png");
+    justify-content: flex-end;
 
 }
 
@@ -368,6 +379,60 @@ main {
     margin: 20px;
     justify-content: center;
 }
+
+.dicount-price {
+    width: 60%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+    /* margin-right: 50px; */
+}
+.dicount-price *{
+    margin: 10px 0;
+}
+.dicount-price .dicount-date>span {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.dicount-price>h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.dicount-price>p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.dicount-price>h1 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.dicount-price .dicount-date{
+    display: flex;
+    gap: 20px;
+}
+.discount-price-A{
+    margin-right: 50px;
+}
+.discount-price-B{
+    margin-left: 50px;
+}
+
+
+
 
 
 /* A Simple Perfect Place To Get Lost */
@@ -496,7 +561,7 @@ main {
     transform: rotate(-19.628deg);
 }
 
-.newslatter-imagge .promo_code>h3{
+.newslatter-imagge .promo_code>h3 {
     color: #FFF;
     text-align: center;
     font-size: 24px;
@@ -505,7 +570,7 @@ main {
 
 }
 
-.newslatter-imagge .promo_code>h2{
+.newslatter-imagge .promo_code>h2 {
     color: #FFF;
     font-size: 32px;
     font-weight: 800;
