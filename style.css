@@ -333,7 +333,7 @@ main {
 
 /* Deals & Discounts======================== */
 .discount-container {
-    margin: 50px;
+    margin: 50px 0;
 }
 
 .discount-all-card {
@@ -349,7 +349,7 @@ main {
 
 .discount-card-1 {
     background: url("Images/Group\ 39.png");
-
+    /* background-size: 100; */
 }
 
 .discount-card-2 {
@@ -465,18 +465,63 @@ main {
     font-size: 16px;
 
 }
-.newslatter-contain>form>input::placeholder{
+
+.newslatter-contain>form>input::placeholder {
     color: rgba(19, 19, 24, 0.30);
     font-size: 16px;
     font-weight: 400;
 }
+
 .newslatter-imagge {
     width: 58%;
+    height: 400px;
+
 }
 
 .newslatter-imagge>img {
     width: 100%;
     height: 100%;
+}
+
+/* Hero Travel footer */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0;
+}
+
+.footer-all-contain {
+    max-width: 1440px;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.footer-all-contain * {
+    margin: 15px;
+}
+
+.footer-all-contain .footer-logo {
+    justify-content: center;
+}
+
+.footer-all-contain .footer-logo>img{
+    width: 40px;
+}
+.footer-all-contain .footer-logo>h1 {
+    margin-left: -10px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-all-contain > p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.footer-all-contain .media-icon a>i{
+    color: black;
+    font-size: 35px;
+
 }
 
 main{

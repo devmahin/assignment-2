@@ -62,6 +62,12 @@
         width: 100%;
     }
 
+
+
+    .newsletter-container {
+        margin: 50px 0;
+        /* border: 2px solid red; */
+    }
     .newslatter-contain {
         width: 100%;
     }
