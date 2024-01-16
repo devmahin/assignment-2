@@ -1,0 +1,73 @@
+@media screen and (max-width: 576px) {
+    .nav-link>ul {
+        display: none;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    /* travel-container  */
+    .travel-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .travel-input-find {
+        flex-direction: column;
+    }
+
+    /* popular-tours-container start */
+    .popular-tours-container {
+        flex-direction: column;
+    }
+
+    .popular-tours-contain {
+        width: 100%;
+        margin-top: 50px 0;
+    }
+
+
+
+    .popular-tours-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* .destination-all-image */
+    .destination-all-image {
+        grid-template-areas: "Maldives "
+            "Indonesia"
+            "Srilanka"
+            "NorthAmerica"
+            "Kashmir"
+            "Bangladesh"
+            "Bandarban";
+    }
+
+
+
+
+    /* A Simple Perfect Place To Get Lost */
+    .place-container,
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .place-contain {
+        width: 100%;
+    }
+
+    .place-video {
+        width: 100%;
+    }
+
+    .newslatter-contain {
+        width: 100%;
+    }
+
+    .newslatter-imagge {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

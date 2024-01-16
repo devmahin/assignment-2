@@ -1,39 +1,484 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
-:root{
+
+:root {
     --primary-color: #FF5400;
 }
 
+.hide {
+    display: none;
+}
+
+.section-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.section-con {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 80%;
+    margin: 10px auto;
+}
+
+.btn {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* hrader start*/
-header{
+header {
     max-width: 1440px;
     width: 81%;
-    background-color: red;
-    margin: 0 auto;
+    margin: 40px auto;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 /* nav-logo */
-.nav-logo{
+.nav-logo {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
+
+.nav-logo h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
 /* nav-link */
-.nav-link>ul{
+.nav-link>.nav-bar {
+    font-size: 30px;
+}
+
+.nav-link>ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.nav-link>ul>li{
+
+.nav-link>ul>li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Explore My Travel Start */
+.travel-container {
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-container>p {
+    width: 80%;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.travel-container * {
+    margin: 5px 0;
+}
+
+.travel-container>h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.travel-input-find {
+    display: flex;
+    gap: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.travel-input-find>button>i {
+    margin-right: 10px;
+
+}
+
+.travel-input-find>input,
+.travel-input-find>select {
+    width: 174px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* main start*/
+main {
+    max-width: 1440px;
+    width: 81%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+/* .popular-tours-container start */
+.popular-tours-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-tours-contain {
+    width: 50%;
+
+}
+
+.popular-tours-contain * {
+    margin: 5px 0;
+}
+
+.popular-tours-contain>h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tours-contain>p,
+.popular-tours-contain>ul>li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    /* list-style: inside; */
+}
+
+.popular-tours-contain>ul {
+    padding-left: 25px;
+}
+
+.destination-all-image {
+    display: grid;
+    grid-template-columns: 12;
+}
+
+.popular-tours-image {
+    width: 45%;
+}
+
+.popular-tours-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+/* <!-- Choose Your Destination start------------------------------------------------> */
+.destination-container {
+    margin: 50px 0;
+}
+
+.destination-all-image .img1 {
+    grid-area: Maldives;
+}
+
+.destination-all-image .img2 {
+    grid-area: Indonesia;
+}
+
+.destination-all-image .img3 {
+    grid-area: Srilanka;
+}
+
+.destination-all-image .img4 {
+    grid-area: NorthAmerica;
+}
+
+.destination-all-image .img5 {
+    grid-area: Kashmir;
+}
+
+.destination-all-image .img6 {
+    grid-area: Bangladesh;
+}
+
+.destination-all-image .img7 {
+    grid-area: Bandarban;
+}
+
+.destination-all-image>img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.destination-all-image {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "Maldives Maldives Maldives Maldives Indonesia Indonesia Indonesia Indonesia"
+        "Srilanka Srilanka NorthAmerica NorthAmerica NorthAmerica NorthAmerica Kashmir Kashmir"
+        "Bangladesh Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban Bandarban"
+    ;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* <!-- Why Choose Us---------------------- --> */
+.choose_us {
+    width: 100%;
+}
+
+.choose-service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+.choose-service-container .choose-card {
+    width: 520px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-service-container .choose-card>img {
+    width: 64px;
+}
+
+.choose-service-container .choose-card h3 {
+    color: #131318;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-service-container .choose-card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Deals & Discounts======================== */
+.discount-container {
+    margin: 50px;
+}
+
+.discount-all-card {
+    width: 100%;
+}
+
+.discount-all-card .discount-card {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.discount-card-1 {
+    background: url("Images/Group\ 39.png");
+
+}
+
+.discount-card-2 {
+    background: url("Images/Group\ 40.png");
+
+}
+
+.discount-card-3 {
+    background: url("Images/Group\ 39.png");
+
+}
+
+.discount-all-card .btn-packages {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+
+/* A Simple Perfect Place To Get Lost */
+.place-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.place-contain {
+    width: 48%;
+
+}
+
+.place-contain * {
+    margin: 10px 0;
+}
+
+.place-contain>h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    /* 150% */
+}
+
+.place-contain>p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.place-contain>ul {
+    margin-left: 25px;
+}
+
+.place-contain>ul>li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.place-video {
+    width: 48%;
+    height: 100%;
+}
+
+.place-video iframe {
+    width: 100%;
+    min-height: 350px;
+}
+
+
+
+
+
+
+
+
+/* newslatter- */
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+    /* border: 2px solid red; */
+}
+
+.newslatter-contain {
+    width: 35%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+
+}
+
+.newslatter-contain * {
+    margin: 10px 0;
+}
+
+.newslatter-contain>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newslatter-contain>form>input {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    font-size: 16px;
+
+}
+.newslatter-contain>form>input::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+.newslatter-imagge {
+    width: 58%;
+}
+
+.newslatter-imagge>img {
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    border: 1px solid red;
 }
