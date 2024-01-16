@@ -122,7 +122,30 @@
         line-height: 30px;
 
     }
+
+
+
+
+
+    .dicount-price {
+        width: 80%;
+    }
+    .discount-price-A{
+        margin-right: 0px;
+    }
+    .discount-price-B{
+        margin-left: 0px;
+    }
     
+    .discount-card-1,
+    .discount-card-2,
+    .discount-card-3{
+        justify-content: center;
+    }
+    .dicount-price *{
+        margin: 5px 0;
+    }
+
     
     /* newsletter-container ================= */
     .newsletter-container {

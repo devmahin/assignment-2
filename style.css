@@ -68,6 +68,9 @@ nav {
     font-size: 36px;
     font-weight: 800;
 }
+.nav-logo h1>span{
+    color: #FF5400;
+}
 
 /* nav-link */
 .nav-link>.nav-bar {
@@ -350,10 +353,6 @@ main {
     display: flex;
     align-items: center;
 }
-.discount-card-container{
-    width: 80%;
-    background-color: red;
-}
 
 .discount-card-1 {
     background: url("Images/Group\ 39.png");
@@ -422,7 +421,8 @@ main {
 
 .dicount-price .dicount-date{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .discount-price-A{
     margin-right: 50px;
