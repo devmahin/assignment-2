@@ -3,36 +3,69 @@
         display: none;
     }
 
+    .nav-logo>img {
+        width: 35px;
+    }
+    
+    .nav-logo h1 {
+        font-size: 21.543px;
+    }
+    
+
     .hide {
         display: block;
     }
+
+
+
+
 
     /* travel-container  */
     .travel-container {
         width: 100%;
         height: 100%;
+    }   
+    .travel-container>h1{
+        font-size: 23px;
     }
+    .travel-container>p{
+        font-size: 14px;
+    }
+
 
     .travel-input-find {
         flex-direction: column;
     }
+    .travel-input-find {
+        gap: 10px;
+    }
+
+
+
+
+
 
     /* popular-tours-container start */
     .popular-tours-container {
         flex-direction: column;
     }
-
     .popular-tours-contain {
         width: 100%;
         margin-top: 50px 0;
     }
-
-
-
+    .popular-tours-contain>h1 {
+        font-size: 20px;
+    }
     .popular-tours-image {
         width: 100%;
         margin-top: 30px;
     }
+    /* popular-tours-container end */
+
+
+
+
+
 
     /* .destination-all-image */
     .destination-all-image {
@@ -44,6 +77,23 @@
             "Bangladesh"
             "Bandarban";
     }
+    /* ======================================= */
+    .section-title    {
+        font-size: 20px;
+    }
+
+
+    /* ======================================= */
+
+
+    /* Why Choose Us */
+    .choose-service-container .choose-card h3 {
+        font-size: 20px;
+    }
+    
+
+
+
 
 
 
@@ -53,9 +103,13 @@
     .newsletter-container {
         flex-direction: column;
     }
+ 
 
     .place-contain {
         width: 100%;
+    }
+    .place-contain>button{
+        margin-bottom: 40px;
     }
 
     .place-video {
@@ -63,7 +117,14 @@
     }
 
 
+    .place-contain>h1 {
+        font-size: 20px;
+        line-height: 30px;
 
+    }
+    
+    
+    /* newsletter-container ================= */
     .newsletter-container {
         margin: 50px 0;
         /* border: 2px solid red; */
@@ -77,21 +138,40 @@
         margin-top: 20px;
         width: 100%;
     }
-
+    .newslatter-imagge .promo_code {
+        width: 214px;
+        right: 10px;
+        transform: rotate(-30deg);
+        bottom: 45px;
+    }
+    
+    .newslatter-imagge .promo_code>h3{
+        font-size: 18px;
+    }
+    
+    .newslatter-imagge .promo_code>h2{
+        font-size: 22px;
+    }
+    /* newsletter-container end================= */
+    
     /* footer */
     footer {
         padding: 50px 0;
     }
+    .footer-all-contain .footer-logo>h1 {
+        font-size: 21px;
+    }
     .footer-all-contain {
         width: 90%;
     }
+
     /* .footer-all-contain .media-icon{
         margin: 0 auto;        
         display: flex;
         background-color: red;
     } */
 
-    .footer-all-contain .media-icon i{
+    .footer-all-contain .media-icon i {
         font-size: 20px;
     }
 
