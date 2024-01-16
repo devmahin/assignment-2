@@ -68,6 +68,7 @@
         margin: 50px 0;
         /* border: 2px solid red; */
     }
+
     .newslatter-contain {
         width: 100%;
     }
@@ -76,4 +77,22 @@
         margin-top: 20px;
         width: 100%;
     }
+
+    /* footer */
+    footer {
+        padding: 50px 0;
+    }
+    .footer-all-contain {
+        width: 90%;
+    }
+    /* .footer-all-contain .media-icon{
+        margin: 0 auto;        
+        display: flex;
+        background-color: red;
+    } */
+
+    .footer-all-contain .media-icon i{
+        font-size: 20px;
+    }
+
 }
