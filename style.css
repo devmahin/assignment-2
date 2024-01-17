@@ -370,7 +370,6 @@ main {
 .discount-card-3 {
     background: url("Images/Group\ 39.png");
     justify-content: flex-end;
-
 }
 
 .discount-all-card .btn-packages {
@@ -391,6 +390,7 @@ main {
 .dicount-price *{
     margin: 10px 0;
 }
+
 .dicount-price .dicount-date>span {
     color: #5A5A5D;
     font-size: 16px;
@@ -511,7 +511,7 @@ main {
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
-
+    /* background-color: red; */
 }
 
 .newslatter-contain * {

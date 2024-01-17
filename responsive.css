@@ -6,11 +6,11 @@
     .nav-logo>img {
         width: 35px;
     }
-    
+
     .nav-logo h1 {
         font-size: 21.543px;
     }
-    
+
 
     .hide {
         display: block;
@@ -24,18 +24,22 @@
     .travel-container {
         width: 100%;
         height: 100%;
-    }   
-    .travel-container>h1{
+    }
+
+    .travel-container>h1 {
         font-size: 23px;
     }
-    .travel-container>p{
+
+    .travel-container>p {
         font-size: 14px;
+        line-height: 20px;
     }
 
 
     .travel-input-find {
         flex-direction: column;
     }
+
     .travel-input-find {
         gap: 10px;
     }
@@ -49,17 +53,21 @@
     .popular-tours-container {
         flex-direction: column;
     }
+
     .popular-tours-contain {
         width: 100%;
         margin-top: 50px 0;
     }
+
     .popular-tours-contain>h1 {
         font-size: 20px;
     }
+
     .popular-tours-image {
         width: 100%;
         margin-top: 30px;
     }
+
     /* popular-tours-container end */
 
 
@@ -77,8 +85,9 @@
             "Bangladesh"
             "Bandarban";
     }
+
     /* ======================================= */
-    .section-title    {
+    .section-title {
         font-size: 20px;
     }
 
@@ -90,7 +99,7 @@
     .choose-service-container .choose-card h3 {
         font-size: 20px;
     }
-    
+
 
 
 
@@ -103,12 +112,13 @@
     .newsletter-container {
         flex-direction: column;
     }
- 
+
 
     .place-contain {
         width: 100%;
     }
-    .place-contain>button{
+
+    .place-contain>button {
         margin-bottom: 40px;
     }
 
@@ -130,23 +140,47 @@
     .dicount-price {
         width: 80%;
     }
-    .discount-price-A{
+
+    .discount-price-A {
         margin-right: 0px;
     }
-    .discount-price-B{
+
+    .discount-price-B {
         margin-left: 0px;
     }
-    
+
     .discount-card-1,
     .discount-card-2,
-    .discount-card-3{
+    .discount-card-3 {
         justify-content: center;
     }
-    .dicount-price *{
-        margin: 5px 0;
+
+    .dicount-price * {
+        margin: 3px 0;
     }
 
-    
+    .discount-all-card .discount-card {
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+    .dicount-price .dicount-date>span>img {
+        width: 24px;
+    }
+
+    .discount-all-card .discount-card h2 {
+        font-size: 20px;
+    }
+
+
+    .discount-all-card .discount-card p {
+        font-size: 14px;
+    }
+
+    .discount-all-card .discount-card h1 {
+        font-size: 16px;
+    }
+
     /* newsletter-container ================= */
     .newsletter-container {
         margin: 50px 0;
@@ -161,29 +195,33 @@
         margin-top: 20px;
         width: 100%;
     }
+
     .newslatter-imagge .promo_code {
         width: 214px;
         right: 10px;
         transform: rotate(-30deg);
         bottom: 45px;
     }
-    
-    .newslatter-imagge .promo_code>h3{
+
+    .newslatter-imagge .promo_code>h3 {
         font-size: 18px;
     }
-    
-    .newslatter-imagge .promo_code>h2{
+
+    .newslatter-imagge .promo_code>h2 {
         font-size: 22px;
     }
+
     /* newsletter-container end================= */
-    
+
     /* footer */
     footer {
         padding: 50px 0;
     }
+
     .footer-all-contain .footer-logo>h1 {
         font-size: 21px;
     }
+
     .footer-all-contain {
         width: 90%;
     }
@@ -214,22 +252,40 @@
     .nav-logo>img {
         width: 38px;
     }
-    
+
     .nav-logo h1 {
         font-size: 27px;
     }
-    
+
     .hide {
         display: block;
     }
 
+    .destination-all-image {
+        grid-template-areas:
+            "Maldives Indonesia"
+            "Srilanka NorthAmerica"
+            "Kashmir Bangladesh"
+            "Bandarban Bandarban";
+    }
 
 
 
+    
+    /* 222222222222222222222222 */
     .travel-input-find {
         width: 50%;
         flex-direction: column;
     }
+
+    .travel-container>h1 {
+        font-size: 35px;
+    }
+
+    .travel-container>p {
+        line-height: 20px;
+    }
+
 
     .travel-input-find>input,
     .travel-input-find>select {
@@ -239,15 +295,19 @@
 
 
 
-    /* 222222222222222222222222 */
-      /* popular-tours-container start */
-      .popular-tours-container {
+
+
+
+    /* popular-tours-container start */
+    .popular-tours-container {
         flex-direction: column;
     }
+
     .popular-tours-contain {
         width: 100%;
         margin-top: 50px 0;
     }
+
     /* .popular-tours-contain>h1 {
         font-size: 20px;
     } */
@@ -255,9 +315,10 @@
         width: 100%;
         margin-top: 30px;
     }
+
     /* popular-tours-container end */
 
- 
+
 
 
     /* A Simple Perfect Place To Get Lost */
@@ -265,12 +326,13 @@
     .newsletter-container {
         flex-direction: column;
     }
- 
+
 
     .place-contain {
         width: 100%;
     }
-    .place-contain>button{
+
+    .place-contain>button {
         margin-bottom: 40px;
     }
 
@@ -278,9 +340,29 @@
         width: 100%;
     }
 
+    .discount-card-1,
+    .discount-card-2,
+    .discount-card-3 {
+        justify-content: center;
+    }
 
+    .discount-price-A {
+        margin-right: 0px;
+    }
 
-        
+    .discount-price-B {
+        margin-left: 0px;
+    }
+
+    .discount-all-card .discount-card {
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+    .dicount-price * {
+        margin: 4px 0;
+    }
+
     /* newsletter-container ================= */
     .newsletter-container {
         margin: 50px 0;
@@ -295,7 +377,13 @@
         margin-top: 20px;
         width: 100%;
     }
+
     .footer-all-contain {
         width: 90%;
     }
+
+
+
+
+
 }
