@@ -199,3 +199,103 @@
     }
 
 }
+
+
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+
+
+    .nav-link>ul {
+        display: none;
+    }
+
+    .nav-logo>img {
+        width: 38px;
+    }
+    
+    .nav-logo h1 {
+        font-size: 27px;
+    }
+    
+    .hide {
+        display: block;
+    }
+
+
+
+
+    .travel-input-find {
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .travel-input-find>input,
+    .travel-input-find>select {
+        width: 100%;
+    }
+
+
+
+
+    /* 222222222222222222222222 */
+      /* popular-tours-container start */
+      .popular-tours-container {
+        flex-direction: column;
+    }
+    .popular-tours-contain {
+        width: 100%;
+        margin-top: 50px 0;
+    }
+    /* .popular-tours-contain>h1 {
+        font-size: 20px;
+    } */
+    .popular-tours-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* popular-tours-container end */
+
+ 
+
+
+    /* A Simple Perfect Place To Get Lost */
+    .place-container,
+    .newsletter-container {
+        flex-direction: column;
+    }
+ 
+
+    .place-contain {
+        width: 100%;
+    }
+    .place-contain>button{
+        margin-bottom: 40px;
+    }
+
+    .place-video {
+        width: 100%;
+    }
+
+
+
+        
+    /* newsletter-container ================= */
+    .newsletter-container {
+        margin: 50px 0;
+        /* border: 2px solid red; */
+    }
+
+    .newslatter-contain {
+        width: 100%;
+    }
+
+    .newslatter-imagge {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .footer-all-contain {
+        width: 90%;
+    }
+}
